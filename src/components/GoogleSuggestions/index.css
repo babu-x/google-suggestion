@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  width: 270px;
+  height: 85px;
+}
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 160px;
+    height: 52px;
+  }
+}
+
+.box-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-top: 35px;
+  width: 500px;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .box-container {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .search-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+  }
+}
+
+.input-search {
+  border: none;
+  outline: none;
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #64748b;
+  width: 430px;
+}
+
+@media screen and (max-width: 576px) {
+  .input-search {
+    width: 89%;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.suggestions-list {
+  margin-top: 28px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .suggestions-list {
+    margin-top: 28px;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+}
